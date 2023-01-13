@@ -24,8 +24,6 @@
 .search:hover {
   background-image: url(../img/icon_search_hover.svg);
   background-position: center;
-  height: 20px;
-  width: 20px;
   background-size: contain;
 }
 
@@ -70,7 +68,7 @@
   cursor: default;
 }
 
-.profile img {
+.profile #profile img{
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -235,4 +233,294 @@ body {
 
 .blockFilm2:hover .infoFilm {
   color: #8a8a8a;
+}
+
+#search1 {
+  display: none;
+}
+
+#mobil {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .allContent {
+    height: 1175px;
+  }
+  .header {
+    height: 70px;
+    width: 100%;
+    max-width: 1279px;
+  }
+
+  .logo :first-child {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo :last-child {
+    width: 65px;
+    height: 21px;
+  }
+
+  .minibar1 {
+    width: 87px;
+    height: 23px;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0;
+    margin-top: 20px;
+    padding-bottom: 21px;
+  }
+
+  .minibar {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .search {
+    height: 17px;
+    width: 17px;
+  }
+
+  .minibar:hover {
+    color: #ffffff;
+    opacity: 0.3;
+  }
+
+  .search:hover {
+    background-image: url(../img/icon_search.svg);
+  }
+
+  .profile #profile img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 1279px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info1 {
+    font-size: 26px;
+    letter-spacing: -0.01em;
+    margin: 40px 0 0 36px;
+    line-height: 34px;
+  }
+
+  .info1 img {
+    width: 20px;
+    height: 24px;
+  }
+
+  .film1 {
+    margin: 23px 0 0 36px;
+  }
+
+  .film1 div {
+    margin-right: 20px;
+  }
+
+  .blockFilmNoneTable {
+    display: none;
+  }
+
+  .nameFilm {
+    font-size: 17px;
+  }
+
+  .infoFilm {
+    font-size: 15px;
+  }
+
+  #str img {
+    width: 40px;
+    height: 48px;
+    margin-left: -10px;
+  }
+
+  #str2 img {
+    width: 40px;
+    height: 48px;
+    margin-left: -10px;
+  }
+
+  .film2 {
+    margin: 23px 0 0 36px;
+  }
+
+  .film2 div {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .allContent {
+    height: 1051px;
+  }
+
+  .header {
+    height: 60px;
+    width: 100%;
+    min-width: 360px;
+    max-width: 767px;
+  }
+
+  .logo :first-child {
+    width: 34px;
+    height: 34px;
+  }
+
+  .logo :last-child {
+    width: 56px;
+    height: 18px;
+  }
+
+  .minibar1 {
+    display: none;
+  }
+
+  .minibar {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile #profile {
+    margin: 0 24px 0 24px;
+  }
+
+  .profile #profile img {
+    width: 26px;
+    height: 26px;
+  }
+  
+  #search1 {
+    display: contents;
+  }
+
+  #mobil {
+    display: contents;
+  }
+
+  #search1 img {
+    width: 26px;
+    height: 26px;
+  }
+
+  #mobil img {
+    width: 24px;
+    height: 16px;
+  }
+
+  .content {
+    width: 100%;
+    min-width: 360px;
+    max-width: 767px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .blockFilmNoneMobil {
+    display: none;
+  }
+
+  .info1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    margin: 28px 0 0 16px;
+  }
+
+  .info1 img {
+    display: none;
+  }
+
+  .blockFilm1 img {
+    width: 297px;
+    height: 168px;
+  }
+
+  .film1 {
+    margin: 22px 0 0 16px;
+  }
+
+  .film2 {
+    margin: 22px 0 0 16px;
+  }
+
+  #str img {
+    width: 9px;
+    height: 24px;
+  }
+
+  .nameFilm {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .infoFilm {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+  }
+
+  .rating {
+    width: 48.15px;
+    height: 28px;
+    top: -225px;
+  }
+
+  .rating2 {
+    width: 48.15px;
+    height: 28px;
+    top: -502px;
+  }
+
+  .blockFilm2 img {
+    width: 297px;
+    height: 447px;
+  }
+
+  #str2 img {
+    width: 9px;
+    height: 24px;
+  }
+
+  .blockFilm1:hover .nameFilm {
+    color: #989898;
+  }
+  
+  .blockFilm1:hover .infoFilm {
+    color: #515151;
+  }
+  
+  .blockFilm2:hover .nameFilm {
+    color: #989898;
+  }
+  
+  .blockFilm2:hover .infoFilm {
+    color: #515151;
+  }
+  
+  .blockFilm2:hover img {
+    transform: scale(1);
+  }
+
+  .blockFilm1:hover img {
+    transform: scale(1);
+  }
 }
